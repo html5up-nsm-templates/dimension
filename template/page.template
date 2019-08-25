@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		@input(template/head.content)
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				@input(template/header.content)
+
+				@inputcontent
+
+				@input(template/footer.content)
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="@pathtofile(site/assets/js/jquery.min.js)"></script>
+			<script src="@pathtofile(site/assets/js/browser.min.js)"></script>
+			<script src="@pathtofile(site/assets/js/breakpoints.min.js)"></script>
+			<script src="@pathtofile(site/assets/js/util.js)"></script>
+			<script src="@pathtofile(site/assets/js/main.js)"></script>
+			<script src="@pathtofile(site/assets/js/process_pre_tags.js)"></script>
+	</body>
+</html>

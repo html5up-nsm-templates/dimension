@@ -1,0 +1,12 @@
+<!-- Main -->
+	<div id="main">
+		@input(content/intro.content)
+
+		@input(content/work.content)
+
+		@input(content/about.content)
+
+		@input(content/contact.content)
+
+		@input(content/elements.content)
+	</div>
