@@ -15,7 +15,7 @@
 
 				@input(template/header.content)
 
-				@inputcontent
+				@content()
 
 				@input(template/footer.content)
 
